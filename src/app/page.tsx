@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
-  console.log('variables:', variables.primaryColor)
   return (
     <main className={styles.main}>
       <div className={styles.description}>
