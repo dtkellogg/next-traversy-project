@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  width: 100vw;
+  color: green;
+  background-color: white;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100vw;
+  color: green;
+}

@@ -1,3 +1,5 @@
+// import Nav from '../../components/Nav'
+
 export default function AboutLayout({
   children, // will be a page or nested layout
 }: {
@@ -6,8 +8,8 @@ export default function AboutLayout({
   return (
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
-      {/* <nav></nav> */}
-      <h1>About Page</h1>
+      {/* <Nav /> */}
+      <h1>About Toshi</h1>
 
       {children}
     </section>
