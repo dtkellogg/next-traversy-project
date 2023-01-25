@@ -1,14 +1,17 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import variables from './styles/variables.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export default function Home() {
+  console.log('variables:', variables.primaryColor)
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        <p style={{color: variables.primaryColor}}>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
